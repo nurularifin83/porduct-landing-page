@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Product Landing Page</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Product landing page" />
+        <meta name="keywords" content="html, css, landing page, product, product landing page, responsive, responsive landing page" />
+        <meta property="og:site_name" content="Product Landing Page by N. Arifin" />
+        <meta http-equiv="X-UA-Compatible"  content="IE-edge" />
+        <link rel="shortcut icon" href="https://raw.githubusercontent.com/nurularifin83/Palindrome-Checker/main/src/img/3658756.png" />
+        <link rel="stylesheet" href="src/css/styles.css" />
+        <script src="https://kit.fontawesome.com/76a936d67b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navbar Start -->
+        <header id="header">
+            <div class="container">
+                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                 alt="Header Image" width="" height="" id="header-img" class="header-img">
+                <div class="float">
+                    <nav class="top-nav" id="nav-bar">
+                        <a href="javascript:void(0)">
+                            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                            alt="Header Image" id="header-img" class="header-img">
+                        </a>
+                        <a href="#home" class="nav-link active">Home</a>
+                        <a href="#how_it_works" class="nav-link">How It Works</a>
+                        <a href="#fetures" class="nav-link">Features</a>
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                        <a href="javascript:void(0);" class="icon" onclick="toggelMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="sectionhome" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                        <form id="form" action="https://www.freecodecamp.com/email-submit">
+                            <label for="email">Handcrafted, home-made masterpieces</label>
+                            <input type="email" name="email" class="" id="email" 
+                            placeholder="Enter your email address" maxlength="50" required />
+                            <input type="submit" value="Get Started" name="submit" id="submit">
+                        </form>
+                    </div>
+                    <div class="col-2">
+                        <img src="https://cdn.pixabay.com/photo/2012/04/05/01/33/trombone-25688_1280.png" alt="Tenor Trombone">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section1" id="how_it_works">
+            <div class="container">
+               <div class="row">
+                <div class="col1-1">
+                    <div class="test1"><li class="fa fa-3x fa-fire"></li></div>
+                    <h1>Premium Materials</h1>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+                <div class="col1-2">
+                    <div><i class="fa fa-3x fa-truck"></i></div>
+                    <h1>Fast Shipping</h1>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+                <div class="col1-3">
+                    <div><i class="fa fa-3x fa-battery-full" aria-hidden="true"></i></div>
+                    <h1>Quality Assurance</h1>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </div>
+               </div>
+            </div>
+        </section>
+        <section class="section2" id="fetures">
+            <div class="container">
+                <div class="row videoWrapper">
+                    <iframe id="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=43BnvuJQ4pHgd7pP" 
+                title="YouTube video player"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="section3" id="pricing">
+            <div class="container">
+                <div class="row price">
+                    <div class="col3-1">
+                        <h1>TENOR TROMBONE</h1>
+                        <h3><span>$</span>15</h3>
+                        <span class="select price1" id="select">Select<i class="fa-solid fa-arrow-right"></i></span>
+                        <p><i class="fa-solid fa-circle-check"></i>Access all courses</p>
+                        <p><i class="fa-solid fa-circle-check"></i>Unlimited personal files</p>
+                        <p><i class="fa-solid fa-circle-check"></i>Download lesson resources</p>
+                        <p><i class="fa-solid fa-circle-check"></i>Lorem ipsum color</p>
+                        <p><i class="fa-solid fa-circle-check"></i>Lorem ipsum</p>
+                    </div>
+                    <div class="col3-2">
+                        <h1>BASS TROMBONE</h1>
+                        <h3><span>$</span>29</h3>
+                        <span class="select  price2" id="select">Select<i class="fa-solid fa-arrow-right"></i></span>
+                        <p><i class="fa-solid fa-circle-check"></i>Access all courses</p>
+                        <p><i class="fa-solid fa-circle-check"></i>Lorem ipsum</p>
+                        <p><i class="fa-solid fa-circle-check"></i>Premium lesson resources for download</p>
+                        <p><i class="fa-solid fa-circle-check"></i>Unlimited email and chat support for learning</p>
+                    </div>
+                    <div class="col3-3">
+                        <h1>VALVE TROMBONE</h1>
+                        <h3><span>$</span>99</h3>
+                        <span class="select price3" id="select">Select<i class="fa-solid fa-arrow-right"></i></span>
+                        <p><i class="fa-solid fa-circle-check"></i>Everything from Center Stage</p>
+                        <p><i class="fa-solid fa-circle-check"></i>Two video reviews from Teachers</p>
+                        <p><i class="fa-solid fa-circle-check"></i>Customized learning plan every month</p>
+                        <p><i class="fa-solid fa-circle-check"></i>Top priority for email support and registration for online events</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container footer">
+            <footer class="row">
+                <div class="col4-1" style="padding-left: 10px;">
+                    <span>
+                        Created with <span style="color: red;">&hearts;</span>. Coded by 
+                    <a style="padding-inline-start: inherit;" href="https://github.com/nurularifin83" target="_blank">N. Arifin</a>
+                    </span>
+                </div>
+                <div class="col4-2">
+                    <a href="javascript:void(0)">Terms</a>
+                    <a href="javascript:void(0)">Privacy</a>
+                    <a href="javascript:void(0)">Contact</a>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript">
+            /* Toggle menu */
+            const toggelMenu = () => {
+                const x = document.getElementById('nav-bar');
+                if (x.className === 'top-nav') {
+                    x.className += ' responsive';
+                } else {
+                    x.className = 'top-nav';
+                }
+            }
+            
+            /* Active base on current click */
+            const parent = document.getElementById("nav-bar");
+            const navMenu = parent.getElementsByClassName("nav-link");
+            for (let i = 0; i < navMenu.length; i++) {
+                navMenu[i].addEventListener('click', function() {
+                    let current = document.getElementsByClassName('active');
+                    current[0].className = current[0].className.replace(' active', '');
+                    this.className += ' active';
+                });
+            }
+        </script>
+    </body>
+</html>
